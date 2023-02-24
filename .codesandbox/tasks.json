@@ -1,0 +1,18 @@
+{
+  "setupTasks": ["pnpm install"], 
+  "tasks": {
+    "install-dependencies": {
+      "name": "Install dependencies",
+      "command": "pnpm install", 
+    },
+    "dev-app": {
+      "name": "Run dev server with rspack", 
+      "command": "pnpm run dev",
+      "runAtStart": true,
+    },
+    "build-app": {
+      "name": "Build application with rspack",
+      "command": "pnpm run build",
+    }
+  }
+}
