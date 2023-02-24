@@ -3,16 +3,16 @@
   "tasks": {
     "install-dependencies": {
       "name": "Install dependencies",
-      "command": "pnpm install", 
+      "command": "pnpm install"
     },
     "dev-app": {
       "name": "Run dev server with rspack", 
       "command": "pnpm run dev",
-      "runAtStart": true,
+      "runAtStart": true
     },
     "build-app": {
       "name": "Build application with rspack",
-      "command": "pnpm run build",
+      "command": "pnpm run build"
     }
   }
 }

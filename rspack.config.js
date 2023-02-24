@@ -10,6 +10,7 @@ module.exports = {
   },
   devServer: {
     hot: true,
+    allowedHosts: [".preview.csb.app"],
   },
   module: {
     rules: [
