@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@rspack/cli": "^0.0.22",
+    "less": "^4.1.3",
     "less-loader": "11.1.0"
   }
 }
