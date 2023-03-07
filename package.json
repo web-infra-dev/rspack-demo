@@ -16,6 +16,7 @@
     "react-refresh": "0.14.0"
   },
   "devDependencies": {
-    "@rspack/cli": "^0.0.22"
+    "@rspack/cli": "^0.0.22",
+    "less-loader": "11.1.0"
   }
 }
