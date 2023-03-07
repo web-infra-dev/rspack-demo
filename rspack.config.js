@@ -13,12 +13,7 @@ module.exports = {
     allowedHosts: [".preview.csb.app"],
   },
   module: {
-    rules: [
-      {
-        test: /\.less$/,
-        type: "css",
-      },
-    ],
+    rules: [{ test: /.less$/, use: [{ loader: "less-loader" }], type: "css" }],
     parser: {
       asset: {
         dataUrlCondition: {
